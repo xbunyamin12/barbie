@@ -1,0 +1,101 @@
+body{
+    width: 100%;
+    
+    padding: 0;
+    margin:0
+   }
+
+.logo{
+    width: 100%;
+    text-align: center;
+    background-color:rgb(244, 7, 252);
+    padding: 10px 0; 
+    
+  
+     
+}
+
+
+
+header div img{
+    border-radius: 300px;    
+    width: 300px;
+    height: 300px;
+}
+.menu ul{
+    list-style: none;
+    margin:0 auto;
+    padding: 10px;
+    width: calc(50% - 650px);
+    height: 45px;
+    
+}
+.menu ul li{
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(29, 37, 37);
+    padding: 0px 10px;
+    display: block;
+}
+
+.logo :hover{
+    opacity: 0,6;
+    border:5px solid orange;
+}
+#h1{
+ color:rgb(255, 255, 255);
+ text-align: center;
+ background-color: rgb(240, 6, 220);
+    margin: 10px;
+ }
+
+p{
+    color:rgb(255, 255, 255);
+       font-size: 30px;
+     text-align: center;
+     background-color: rgb(240, 6, 220);
+    margin: 10px;
+}
+#resimler img{
+    display: inline;
+    width: 750px;
+    height: 750px;
+    margin-right: 100px;
+    margin-left: 90px;
+    border:8px solid rgb(211, 77, 211);
+    padding: 10px 10px; 
+
+}
+#resimler img:hover{
+    opacity: 0.5;
+    
+}
+.tanitim p{
+    color: rgb(254, 252, 255);
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(240, 6, 220);
+    margin: 10px;
+    
+}
+
+#yazı {
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    padding: 2%;
+    text-align: center;
+    background-color: rgb(49, 1, 68);
+    margin:10px;
+    
+}
+.sinemtasarım{
+    
+    height: 500px;
+    text-align: center;
+    background-color:rgb(172, 139, 233);
+    padding: 10px 0; 
+}
